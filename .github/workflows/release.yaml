@@ -49,7 +49,7 @@ jobs:
       - name: Commit files
         run: |
           git config --global user.name 'lihui'
-          git config --global user.email '38807139+liby@users.noreply.github.com'
+          git config --global user.email '36818242+lhui@users.noreply.github.com'
           git commit -am 'chore: update appcast.json and info.json'
 
       - name: Push changes
