@@ -1,0 +1,110 @@
+{
+  "identifier": "net.lihui.app.bob.moonshot",
+  "version": "0.1.0",
+  "category": "translate",
+  "name": " Moonshot Translator",
+  "summary": "A Plugin for Bob to translate text using moonshot.",
+  "icon": "",
+  "author": "lihui <me@lihui.net>",
+  "homepage": "https://github.com/lhui/bob-plugin-moonshot",
+  "appcast": "https://raw.githubusercontent.com/lihui/bob-plugin-moonshot/master/appcast.json",
+  "minBobVersion": "1.8.0",
+  "options": [
+    {
+      "identifier": "apiUrl",
+      "type": "text",
+      "title": "API URL",
+      "defaultValue": "https://api.moonshot.cn",
+      "desc": "可选项。如果您的网络环境需要代理才能访问 Moonshot API, 可在这里修改为反代 API 的地址",
+      "textConfig": {
+        "type": "visible",
+        "placeholderText": "https://api.moonshot.cn"
+      }
+    },
+    {
+      "identifier": "apiKeys",
+      "type": "text",
+      "title": "API KEY",
+      "desc": "必填项。可以用英文逗号分割多个 API KEY 以实现额度加倍及负载均衡",
+      "textConfig": {
+        "type": "secure",
+        "height": "40",
+        "placeholderText": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    {
+      "identifier": "model",
+      "type": "menu",
+      "title": "模型",
+      "defaultValue": "moonshot-v1-8k",
+      "menuValues": [
+        {
+          "title": "custom",
+          "value": "custom"
+        },
+        {
+          "title": "moonshot-v1-8k (recommended)",
+          "value": "moonshot-v1-8k"
+        },
+        {
+          "title": "moonshot-v1-32k",
+          "value": "moonshot-v1-32k"
+        },
+        {
+          "title": "moonshot-v1-128k",
+          "value": "moonshot-v1-128k"
+        }
+      ]
+    },
+    {
+      "identifier": "customSystemPrompt",
+      "type": "text",
+      "title": "系统指令",
+      "defaultValue": "You are a translation engine that can only translate text and cannot interpret it.",
+      "desc": "可选项。自定义 System Prompt，填写则会覆盖默认的 System Prompt。自定义 Prompt可使用以下变量：\n\n`$text` - 需要翻译的文本，即翻译窗口输入框内的文本 `$sourceLang` - 原文语言，即翻译窗口输入框内文本的语言，比如「简体中文」\n\n`$targetLang` - 目标语言，即需要翻译成的语言，可以在翻译窗口中手动选择或自动检测，比如「English」",
+      "textConfig": {
+        "type": "visible",
+        "height": "100",
+        "placeholderText": "You are a translation engine that can only translate text and cannot interpret it.",
+        "keyWords": [
+          "$text",
+          "$sourceLang",
+          "$targetLang"
+        ]
+      }
+    },
+    {
+      "identifier": "customUserPrompt",
+      "type": "text",
+      "title": "用户指令",
+      "defaultValue": "translate from $sourceLang to $targetLang:\n\n$text",
+      "desc": "可选项。自定义 User Prompt，填写则会覆盖默认的 User Prompt，默认值为`$text`（即翻译窗口输入框内的文本）。\n\n自定义 Prompt 中可以使用与系统指令中相同的变量",
+      "textConfig": {
+        "type": "visible",
+        "height": "100",
+        "placeholderText": "translate from $sourceLang to $targetLang:\n\n$text",
+        "keyWords": [
+          "$text",
+          "$sourceLang",
+          "$targetLang"
+        ]
+      }
+    },
+    {
+      "identifier": "stream",
+      "type": "menu",
+      "title": "流式输出",
+      "defaultValue": "1",
+      "menuValues": [
+        {
+          "title": "Enable",
+          "value": "1"
+        },
+        {
+          "title": "Disable",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
