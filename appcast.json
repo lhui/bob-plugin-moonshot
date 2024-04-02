@@ -1,5 +1,12 @@
 {
   "identifier": "net.lihui.app.bob.moonshot",
   "versions": [
+    {
+      "version": "0.1.0",
+      "desc": "[lihui] #N/A feat: update release.yaml",
+      "sha256": "c0ea2417e2f50a0335d77e862f58ac90b5145b574eda12f3f5f44aac2add7e4b",
+      "url": "https://github.com/lhui/bob-plugin-moonshot/releases/download/v0.1.0/bob-plugin-moonshot-0.1.0.bobplugin",
+      "minBobVersion": "1.8.0"
+    }
   ]
 }
