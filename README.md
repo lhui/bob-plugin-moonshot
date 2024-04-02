@@ -6,7 +6,7 @@
 
 
 # 感谢
-感谢 https://github.com/openai-translator/bob-plugin-openai-translator 这个仓库中的开发人员，没有这个仓库的开发人员的开发, 我可能需要摸索很长长时间。
+感谢 https://github.com/openai-translator/bob-plugin-openai-translator 这个仓库中的开发人员，没有这个仓库的开发人员的开发, 我可能需要摸索很长时间。
 
 开发当前 moonshot 插件时，上述项目的成员有
 - https://github.com/yetone
