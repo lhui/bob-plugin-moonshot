@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 def update_appcast(version, desc):
-    release_file = Path(f'release/openai-translator-{version}.bobplugin')
+    release_file = Path(f'release/bob-plugin-moonshot-{version}.bobplugin')
     assert release_file.is_file(), 'Release file not exist'
     with open(release_file, 'rb') as f:
         c = f.read()
