@@ -50,7 +50,7 @@ jobs:
         run: |
           git config --global user.name 'lihui'
           git config --global user.email '36818242+lhui@users.noreply.github.com'
-          git commit -am 'chore: update appcast.json and info.json'
+          git commit -am '[lihui] #N/A feat: update appcast.json and info.json'
 
       - name: Push changes
         uses: ad-m/github-push-action@master
