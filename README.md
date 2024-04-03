@@ -22,16 +22,16 @@ Moonshot 模型返回回复的内容较快, 质量也没有太大的问题，因
 
 ## 感谢
 
-感谢 [https://github.com/openai-translator/bob-plugin-openai-translator](https://github.com/openai-translator/bob-plugin-openai-translator) 这个仓库中的开发人员，没有这个仓库的开发人员的开发, 我可能需要摸索很长时间。
+感谢 [bob-plugin-openai-translator](https://github.com/openai-translator/bob-plugin-openai-translator) 这个仓库中的开发人员，没有该 repo 的开发, 我可能需要摸索很长时间。
 
-开发当前 moonshot 插件时，上述项目的成员有
+开发该 moonshot 插件时，上述项目的成员有
 
-- [https://github.com/yetone](https://github.com/yetone)
-- [https://github.com/liby](https://github.com/liby)
-- [https://github.com/Ukenn2112](https://github.com/Ukenn2112)
-- [https://github.com/Nomango](https://github.com/Nomango)
-- [https://github.com/godruoyi](https://github.com/godruoyi)
-- [https://github.com/Songkeys](https://github.com/Songkeys)
-- [https://github.com/jermyn626](https://github.com/jermyn626)
+- [yetone](https://github.com/yetone)
+- [liby](https://github.com/liby)
+- [Ukenn2112](https://github.com/Ukenn2112)
+- [Nomango](https://github.com/Nomango)
+- [godruoyi](https://github.com/godruoyi)
+- [Songkeys](https://github.com/Songkeys)
+- [jermyn626](https://github.com/jermyn626)
 
 感谢各位的开发，让本项目开发少走了很多弯路。
