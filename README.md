@@ -12,6 +12,14 @@ Moonshot 模型返回回复的内容较快, 质量也没有太大的问题，因
 
 ### 使用
 
+### 如何调试
+
+### 参与贡献
+
+1. Fork 本仓库
+2. 在你的仓库中开发功能
+3. 提交一个 Pull Request
+
 ## 感谢
 
 感谢 [https://github.com/openai-translator/bob-plugin-openai-translator](https://github.com/openai-translator/bob-plugin-openai-translator) 这个仓库中的开发人员，没有这个仓库的开发人员的开发, 我可能需要摸索很长时间。
