@@ -4,7 +4,7 @@
 
 本项目是一个基于 [Moonshot](https://www.moonshot.cn/) API 的 [Bob](https://bobtranslate.com/) 插件，用于适配 Bob 翻译。
 
-Moonshot 模型返回回复的内容较快, 质量也没有太大的问题，因此打算写一个对应的插件, 用于日常的翻译。
+Moonshot 模型回复的内容较快, 质量也没有太大的问题，因此打算写一个对应的插件, 用于日常的翻译。
 
 **如果你觉得好用, 请帮忙点个 star ⭐, 感谢支持.**
 
