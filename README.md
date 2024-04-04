@@ -18,7 +18,7 @@ Moonshot 模型返回回复的内容较快, 质量也没有太大的问题，因
 
 1. 访问 [Moonshot](https://www.moonshot.cn/) 官网, 注册账号并访问 [https://platform.moonshot.cn/console/api-keys](https://platform.moonshot.cn/console/api-keys) 获取 API Key
 
-![获取api-key](/res/image.png)
+![获取api-key](/res/apply-moonshot-key.png)
 
 复制 API Key, 并将其填入到 Bob 插件配置页面中
 
