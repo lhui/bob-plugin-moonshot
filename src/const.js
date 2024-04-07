@@ -42,7 +42,7 @@ var HttpErrorCodes = {
   "511": "Network Authentication Required"
 }
 
-var SYSTEM_PROMPT = "You are a translation engine that can only translate text and cannot interpret it."
+let SYSTEM_PROMPT = "You are a translation engine that can only translate text and cannot interpret it."
 
 exports.SYSTEM_PROMPT = SYSTEM_PROMPT;
 exports.HttpErrorCodes = HttpErrorCodes;

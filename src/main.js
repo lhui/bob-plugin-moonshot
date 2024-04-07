@@ -1,9 +1,9 @@
 //@ts-check
 
-var lang = require("./lang.js");
-var SYSTEM_PROMPT = require("./const.js").SYSTEM_PROMPT;
+let lang = require("./lang.js");
+let SYSTEM_PROMPT = require("./const.js").SYSTEM_PROMPT;
 
-var {
+let {
     buildHeader,
     ensureHttpsAndNoTrailingSlash,
     getApiKey,
