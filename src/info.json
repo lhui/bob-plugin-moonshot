@@ -1,6 +1,6 @@
 {
   "identifier": "net.lihui.app.bob.moonshot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "category": "translate",
   "name": " Moonshot Translator",
   "summary": "A Plugin for Bob to translate text using moonshot.",
@@ -53,6 +53,30 @@
         {
           "title": "moonshot-v1-128k",
           "value": "moonshot-v1-128k"
+        },
+        {
+          "title": "kimi-latest",
+          "value": "kimi-latest"
+        },
+        {
+          "title": "kimi-k2-0905-preview",
+          "value": "kimi-k2-0905-preview"
+        },
+        {
+          "title": "kimi-k2-0711-preview",
+          "value": "kimi-k2-0711-preview"
+        },
+        {
+          "title": "kimi-k2-turbo-preview",
+          "value": "kimi-k2-turbo-preview"
+        },
+        {
+          "title": "kimi-k2-thinking",
+          "value": "kimi-k2-thinking"
+        },
+        {
+          "title": "kimi-k2-thinking-turbo",
+          "value": "kimi-k2-thinking-turbo"
         }
       ]
     },
