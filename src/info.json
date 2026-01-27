@@ -7,7 +7,7 @@
   "icon": "",
   "author": "lihui <me@lihui.net>",
   "homepage": "https://github.com/lhui/bob-plugin-moonshot",
-  "appcast": "https://raw.githubusercontent.com/lihui/bob-plugin-moonshot/master/appcast.json",
+  "appcast": "https://raw.githubusercontent.com/lhui/bob-plugin-moonshot/refs/heads/master/appcast.json",
   "minBobVersion": "1.8.0",
   "options": [
     {
@@ -45,6 +45,10 @@
         {
           "title": "moonshot-v1-8k (recommended)",
           "value": "moonshot-v1-8k"
+        },
+        {
+          "title": "kimi-k2.5",
+          "value": "kimi-k2.5"
         },
         {
           "title": "moonshot-v1-32k",
