@@ -2,6 +2,13 @@
   "identifier": "net.lihui.app.bob.moonshot",
   "versions": [
     {
+      "version": "0.2.0",
+      "desc": "[lihui] #N/A feat: update model and setup appcast update url",
+      "sha256": "fd67849060d369e8bb58cb5b643d083c06d789b2355782f663b7e14acf2d5f89",
+      "url": "https://github.com/lhui/bob-plugin-moonshot/releases/download/v0.2.0/bob-plugin-moonshot-0.2.0.bobplugin",
+      "minBobVersion": "1.8.0"
+    },
+    {
       "version": "0.1.1",
       "desc": "[lihui] #N/A feat: add new moonshot model",
       "sha256": "4e4d78de6bbfc3e43200f1a56c48d5e409d2c51da2194ff03df917613c9b47b2",
