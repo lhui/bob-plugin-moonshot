@@ -2,6 +2,13 @@
   "identifier": "net.lihui.app.bob.moonshot",
   "versions": [
     {
+      "version": "0.1.1",
+      "desc": "[lihui] #N/A feat: add new moonshot model",
+      "sha256": "4e4d78de6bbfc3e43200f1a56c48d5e409d2c51da2194ff03df917613c9b47b2",
+      "url": "https://github.com/lhui/bob-plugin-moonshot/releases/download/v0.1.1/bob-plugin-moonshot-0.1.1.bobplugin",
+      "minBobVersion": "1.8.0"
+    },
+    {
       "version": "0.1.0",
       "desc": "[lihui] #N/A feat: update release.yaml",
       "sha256": "c0ea2417e2f50a0335d77e862f58ac90b5145b574eda12f3f5f44aac2add7e4b",
